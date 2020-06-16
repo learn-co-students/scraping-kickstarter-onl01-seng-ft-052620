@@ -241,7 +241,7 @@ Let's add that to `kickstarter_scraper.rb`:
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # description: project.css("p.bbcard_blurb").text
 ```
-
+project.css("span.location_name").textContent
 ### Selecting the Location
 
 Do you think you can figure this one out on your own? Examine the web page and
